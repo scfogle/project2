@@ -13,12 +13,13 @@
 }
 
 .hometxt {
+
 width: 100%;
 height: 200px;
 text-align: center;
 background-color: white;
 position: fixed;
-z-index: 1;
+
 }
 
 .home {

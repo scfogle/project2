@@ -294,7 +294,16 @@ function OutputTheReview(rev) {
 	}
 
 
-
+// Output Clouds/Piecharts for Taste/Aroma/Effect
+function OutputAromaTasteHigh(das,was) {
+	var tasth4 = document.createElement('h4'); tasth4.className = 'tastingh4'; tasth4.innerHTML = das.title; document.getElementById('userreviews').appendChild(tasth4);
+	var tastp = document.createElement('p'); tastp.className = 'acloud'; tastp.id = was + 'cloud'; document.getElementById('userreviews').appendChild(tastp);
+	var piech = document.createElement('img'); piech.src = das.imurl; piech.alt = ''; piech.useMap = '#SFpiechart_' + was; piech.className = 'piechart'; document.getElementById(was + 'cloud').appendChild(piech);
+	var piemp = document.createElement('map'); piemp.name = 'SFpiechart_' + was; piemp.id = was + 'map'; piemp.innerHTML = das.immap; document.getElementById(was + 'cloud').appendChild(piemp);
+	for(var wert in das.cloud) {
+		var clspa = document.createElement('span'); clspa.className = 'cl' + das.cloud[wert].size; clspa.style.color = '#' + das.cloud[wert].color; clspa.title = '~ ' + das.cloud[wert].val + '%'; clspa.innerHTML = das.cloud[wert].title; document.getElementById(was + 'cloud').appendChild(clspa);
+		}
+	}
 
 // Output User Reviews (Indoor)
 function OutputTheReviewIndoor(rev) {

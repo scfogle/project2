@@ -122,6 +122,7 @@ function SFreadinStrainInfo(thebreeder,thestrain) {
 	document.getElementById('TheStrainName').innerHTML = 'please wait while loading...';
 	document.getElementById('SFSBstraininfo').innerHTML = '';
 	document.getElementById('seedfinderLink').innerHTML = '';
+	document.getElementById('SFSearchinfo').innerHTML = '';
 	
 	if(typeof strainInfo[seedid] == "object") {
 		SFStrainInfoOutput('' + seedid + '');

@@ -23,7 +23,7 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 .Boxed div#SFSBlink a {text-decoration: none; color: #008000; background-color: white; font-size: 12px; font-weight: bold; border: 0px solid ; padding: 0 2px 0 2px;}
 .Boxed div#SFSBname {position: fixed; top: 40%; left: 15%; margin: 23px 0 0 800px; padding: 0 6px 0 0; background-color: #bbb;}
 .Boxed div#SFSBname img {border: 0;}
-.Boxed div#SFSBselect {font-size: 0.8em; position: absolute; top: 40%; left: 15%; width: 571px; margin: 0 0 0 0; padding: 5px; background-color: #FFFFEF; height: 23px; z-index: 2;}
+.Boxed div#SFSBselect {font-size: 0.8em; position: fixed; top: 40%; left: 15%; width: 571px; margin: 0 0 0 0; padding: 5px; background-color: #FFFFEF; height: 23px; z-index: 2;}
 .Boxed div#SFSBselect a, .Boxed div#SFSBselect span {font-size: 0.8em; font-weight: bold; padding: 3px 5px 7px 5px; background-color: #e8e8e8; text-decoration: none; color: #bbb;}
 .Boxed div#SFSBselect select {height: 23px; margin-right: 5px;}
 .Boxed div#SFSBsearch {font-size: 0.8em; position: fixed; top: 40%; left: 15%; padding: 5px 5px 5px 581px; background-color: #ffffef; z-index: 1;}

@@ -13,11 +13,10 @@
 }
 
 .hometxt {
-  width: 33.33%;
-  margin-left: 33.33%;
-  text-align: center;
-  margin-bottom: -60px;
-  margin-top: 80px;
+width: 100%;
+background-color: white;
+position: fixed;
+
 }
 
 .home {

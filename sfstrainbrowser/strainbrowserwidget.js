@@ -123,7 +123,7 @@ function SFreadinStrainInfo(thebreeder,thestrain) {
 	document.getElementById('SFSBstraininfo').innerHTML = '';
 	document.getElementById('seedfinderLink').innerHTML = '';
 	document.getElementById('SFSearchinfo').style.display = 'none';
-	document.getElementById('SearchH2').style.display = 'none';
+	
 	
 	if(typeof strainInfo[seedid] == "object") {
 		SFStrainInfoOutput('' + seedid + '');
@@ -270,20 +270,7 @@ function OutputTheReview(rev) {
 	var revTitle =  '<strong>' + rev.average.title + ':</strong> <abbr title="' + rev.average.val + ' from 10 points">' + rev.average.info + '</abbr>'
 	var revpBewTop = document.createElement('p'); revpBewTop.className = 'userreviewTitle'; revpBewTop.innerHTML = revTitle; document.getElementById('userreviews').appendChild(revpBewTop);
 	
-	// Show tastings
-	if(rev.tasting != false) {
-		// Strength
-		if(rev.tasting.strength != false) {
-			var revTitle =  '<strong>' + rev.tasting.strength.title + ':</strong> <abbr title="' + rev.tasting.strength.val + ' from 10 points">' + rev.tasting.strength.info + '</abbr>'
-			var revpBewTop = document.createElement('p'); revpBewTop.className = 'userreviewTitle'; revpBewTop.innerHTML = revTitle; document.getElementById('userreviews').appendChild(revpBewTop);
-			}
-		
-		// Effect
-		if(rev.tasting.effect != false) {OutputAromaTasteHigh(rev.tasting.effect, 'effect');}
-		// Aroma
-		if(rev.tasting.smell != false) {OutputAromaTasteHigh(rev.tasting.smell, 'smell');}
-		// Taste
-		if(rev.tasting.taste != false) {OutputAromaTasteHigh(rev.tasting.taste, 'taste');}
+
 		}
 	
 	// Show indoor Reviews

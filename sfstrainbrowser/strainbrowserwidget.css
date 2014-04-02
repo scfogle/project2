@@ -18,7 +18,7 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 
 
 
-.Boxed {background-color:#FFFFEF; position: absolute; top: 18%; left: 25%;  width: 760px; min-width: 300px; overflow: auto; border: 5px solid #FFFFEF; padding: 0; margin: 0;}
+.Boxed {background-color:#FFFFEF; position: absolute; top: 18%; left: 25%;  width: 760px; min-width: 300px; overflow: hidden; border: 5px solid #FFFFEF; padding: 0; margin: 0;}
 .Boxed div#SFSBlink {position: fixed; top: 18%; left: 25%; margin: 1px 0 0 795px; padding: 0; z-index: 99999;}
 .Boxed div#SFSBlink a {text-decoration: none; color: #008000; background-color: white; font-size: 12px; font-weight: bold; border: 0px solid ; padding: 0 2px 0 2px;}
 .Boxed div#SFSBname {position: absolute; top: 1%; left: 1%; margin: 23px 0 0 800px; padding: 0 6px 0 0; background-color: #bbb;}

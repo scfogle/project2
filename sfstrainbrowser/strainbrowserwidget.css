@@ -11,37 +11,37 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 .Closed div#SFSBsearch a {
     
     
-     width: 33.33%; font-size: 3em; font-weight: bold; padding: 5px 5px 5px 5px; background-color: #008000; text-decoration: none; color: #FFFFEF;}
+     width: 33.33%; font-size: 3em; font-weight: bold; padding: 5px 5px 5px 5px; background-color: #008000; text-decoration: none; color: #ffffef;}
 
 
 
 
 
 
-.Boxed {background-color:#FFFFEF; position: ;   width: 80%; min-width: 300px; overflow: auto; border: 0px solid black; padding: 0; margin-right: auto;margin-left: auto;}
+.Boxed {background-color:whitemsoke; position: ;   width: 80%; min-width: 300px; overflow: auto; border: 0px solid black; padding: 0; margin-right: auto;margin-left: auto;}
 .Boxed div#SFSBlink {position:fixed ;  float:; left:90%; padding: 0; z-index: 99999;}
 .Boxed div#SFSBlink a {text-decoration: none; color: #008000; background-color: white; font-size: 12px; font-weight: bold; border: 0px solid black; padding: 0 2px 0 2px;}
 .Boxed div#SFSBname {position: ; top: ; left: ; margin: 23px 0 0 0px; padding: 0 6px 0 0; background-color: #bbb; border: 1px solid black; display: none;}
 .Boxed div#SFSBname img {border: 0;}
-.Boxed div#SFSBselect {border: 0px solid black; float: left; text-align: left; font-size: 0.8em; position:;  width: 50%%; margin-left: 5px; margin-top: 5px; padding: 0px; background-color: #FFFFEF; height:; z-index: 1;}
+.Boxed div#SFSBselect {border: 0px solid black; float: left; text-align: left; font-size: 0.8em; position:;  width: 50%%; margin-left: 5px; margin-top: 5px; padding: 0px; background-color: whitemsoke; height:; z-index: 1;}
 .Boxed div#SFSBselect a, .Boxed div#SFSBselect span {font-size: 0.7em; font-weight: bold; padding: 4px; background-color: #e8e8e8; text-decoration: none; color: #bbb;}
 .Boxed div#SFSBselect select {height: 23px; margin-right: 5px; margin-bottom: 0px;}
-.Boxed div#SFSBsearch {margin-top: 5px; border: 0px solid black; width: 40%; float: right; font-size: 0.8em; position: ; padding: 0px; background-color: #ffffef; z-index: 1;}
+.Boxed div#SFSBsearch {margin-top: 5px; border: 0px solid black; width: 40%; float: right; font-size: 0.8em; position: ; padding: 0px; background-color: whitemsoke; z-index: 1;}
 .Boxed div#SFSBsearch input {width: 70%; margin-bottom: 0px; border: 0; color: #6f6f6f; background-color: #e8e8e8; font-size: 0.7em; font-weight: bold; padding: 5px;}
 .Boxed div#SFSBsearch a {width: 24%; font-size: 0.7em; font-weight: bold; padding: 5px; background-color: #e8e8e8; text-decoration: none; color: #008000;}
 .Boxed div#SFSearchinfo ul#strainsearchul {display: block; list-style: none; margin: 5px 0 0 0; font-size: 0.8em; font-weight: bold; padding-left: 20px;}
-.Boxed div#SFSearchinfo ul#strainsearchul li {padding: 1px 5px 1px 5px; background-color: #ffffef;}
+.Boxed div#SFSearchinfo ul#strainsearchul li {padding: 1px 5px 1px 5px; background-color: whitemsoke;}
 .Boxed div#SFSearchinfo ul#strainsearchul li a {text-decoration: none; color: #000;}
 .Boxed div#SFSBrowser {min-height: 47px;}
-.Boxed div#SFSBrowser h2 {padding: 2px; margin: 23px 0 0 0; padding-left: 5px; border-top: 5px solid #FFFFEF; border-bottom: 5px solid #FFFFEF;}
-.Boxed div#SFSBrowser h2.strainname {color: #000; background-color: #FFFFEF;}
-.Boxed div#SFSBrowser h2.imloading {color: #a9a9a9; border-color: #FFFFEF; background-color: #FFFFEF;}
-.Boxed div#SFSBstraininfo {background-color:#FFFFEF;}
-.Boxed div#SFSBstraininfo h2 {padding: 2px; margin: 10px 0 0 0; padding-left: 5px; border-top: 5px solid #FFFFEF; border-bottom: 5px solid #FFFFEF;}
-.Boxed div#SFSBstraininfo h2.strainname {color: #ffffef; background-color: #fff;}
-.Boxed div#SFSBstraininfo h2.imloading {color: #a9a9a9; border-color: #bbb; background-color: #FFFFEF;}
+.Boxed div#SFSBrowser h2 {padding: 2px; margin: 23px 0 0 0; padding-left: 5px; border-top: 5px solid whitemsoke; border-bottom: 5px solid #whitemsoke;}
+.Boxed div#SFSBrowser h2.strainname {color: #000; background-color: whitemsoke;}
+.Boxed div#SFSBrowser h2.imloading {color: #a9a9a9; border-color: whitemsoke; background-color: whitemsoke;}
+.Boxed div#SFSBstraininfo {background-color:whitemsoke;}
+.Boxed div#SFSBstraininfo h2 {padding: 2px; margin: 10px 0 0 0; padding-left: 5px; border-top: 5px solid whitemsoke; border-bottom: 5px solid whitemsoke;}
+.Boxed div#SFSBstraininfo h2.strainname {color: whitemsoke; background-color: #fff;}
+.Boxed div#SFSBstraininfo h2.imloading {color: #a9a9a9; border-color: #bbb; background-color: whitemsoke;}
 .Boxed div#SFSBstraininfo p {margin: 0; padding: 2px 5px 5px 5px; font-size: 0.9em;}
-.Boxed div#SFSBstraininfo p span.infobox {float: right; padding: 5px; margin: 3px 0 5px 5px; background-color: #FFFFeF; max-width: 200px;}
+.Boxed div#SFSBstraininfo p span.infobox {float: right; padding: 5px; margin: 3px 0 5px 5px; background-color: whitemsoke; max-width: 200px;}
 .Boxed div#SFSBstraininfo p span.infobox img {border: 0; width: 100%; max-width: 200px; height: auto;}
 .Boxed div#SFSBstraininfo p#TheParents, div#SFSBstraininfo p#TheHybrids {background-color: white; padding: 5px; margin: 5px 0 5px 0; border-top: 2px dashed #bbb; border-bottom: 2px dashed #bbb; font-size: 0.9em;}
 .Boxed div#SFSBstraininfo p#TheParents a, div#SFSBstraininfo p#TheHybrids a {white-space: nowrap; padding-left: 5px;}

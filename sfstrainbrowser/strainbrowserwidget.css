@@ -29,7 +29,7 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 .Boxed div#SFSBsearch {margin-top: 5px; border: 0px solid black; width: 40%; float: right; font-size: 0.8em; position: ; padding: 0px; background-color: whitemsoke; z-index: 1;}
 .Boxed div#SFSBsearch input {width: 70%; margin-bottom: 0px; border: 0; color: #6f6f6f; background-color: #e8e8e8; font-size: 0.7em; font-weight: bold; padding: 5px;}
 .Boxed div#SFSBsearch a {width: 24%; font-size: 0.7em; font-weight: bold; padding: 5px; background-color: #e8e8e8; text-decoration: none; color: #008000;}
-.Boxed div#SFSearchinfo ul#strainsearchul {display: block; list-style: none; margin: 50px 0 0 0; font-size: 0.8em; font-weight: bold; padding-left: 20px;}
+.Boxed div#SFSearchinfo ul#strainsearchul {display: block; list-style: none; margin: 5px 0 0 0; font-size: 0.8em; font-weight: bold; padding-left: 20px; margin-top: 50px;}
 .Boxed div#SFSearchinfo ul#strainsearchul li {padding: 1px 5px 1px 5px; background-color: whitemsoke;}
 .Boxed div#SFSearchinfo ul#strainsearchul li a {text-decoration: none; color: #000;}
 .Boxed div#SFSBrowser {min-height: 47px;}

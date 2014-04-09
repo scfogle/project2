@@ -1,5 +1,5 @@
 div#SeedFinderStrainBrowser {font-family: sans-serif;}
-.Closed {width: 100%; max-height: 100%; margin: 0; padding: 0;}
+.Closed {width: 300px; max-height: 100%; margin: 0; padding: 0; margin-right: auto; margin-left: auto;}
 .Closed div#SFSBlink {float: right; padding: 0;}
 .Closed div#SFSBlink img {border: 0;}
 .Closed div#SFSBselect {font-size: 0.8em; text-align: center; background-color: white; min-width: 100%; padding: 2px; margin-bottom: 10px;}
@@ -18,17 +18,17 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 
 
 
-.Boxed {background-color:#FFFFEF; position: absolute; top: 18%; left: 25%;  width: 760px; min-width: 300px; overflow: hidden; border: 5px solid #FFFFEF; padding: 0; margin: 0;}
-.Boxed div#SFSBlink {position: fixed; top: 18%; left: 25%; margin: 1px 0 0 795px; padding: 0; z-index: 99999;}
-.Boxed div#SFSBlink a {text-decoration: none; color: #008000; background-color: white; font-size: 12px; font-weight: bold; border: 0px solid ; padding: 0 2px 0 2px;}
-.Boxed div#SFSBname {position: absolute; top: 1%; left: 1%; margin: 23px 0 0 800px; padding: 0 6px 0 0; background-color: #bbb;}
+.Boxed {background-color:#FFFFEF; position: ;   width: 80%; min-width: 300px; overflow: auto; border: 0px solid black; padding: 0; margin-right: auto;margin-left: auto;}
+.Boxed div#SFSBlink {position:fixed ;  float:; left:90%; padding: 0; z-index: 99999;}
+.Boxed div#SFSBlink a {text-decoration: none; color: #008000; background-color: white; font-size: 12px; font-weight: bold; border: 0px solid black; padding: 0 2px 0 2px;}
+.Boxed div#SFSBname {position: ; top: ; left: ; margin: 23px 0 0 0px; padding: 0 6px 0 0; background-color: #bbb; border: 1px solid black; display: none;}
 .Boxed div#SFSBname img {border: 0;}
-.Boxed div#SFSBselect {font-size: 0.8em; position: fixed; top: 18%; left: 25%; width: 571px; margin: 0 0 0 0; padding: 5px; background-color: #FFFFEF; height: 23px; z-index: 2;}
-.Boxed div#SFSBselect a, .Boxed div#SFSBselect span {font-size: 0.8em; font-weight: bold; padding: 3px 5px 7px 5px; background-color: #e8e8e8; text-decoration: none; color: #bbb;}
-.Boxed div#SFSBselect select {height: 23px; margin-right: 5px;}
-.Boxed div#SFSBsearch {font-size: 0.8em; position: fixed; top:18%; left:25%; padding: 5px 5px 5px 581px; background-color: #ffffef; z-index: 1;}
-.Boxed div#SFSBsearch input {width: 129px; margin: 0; border: 0; color: #6f6f6f; background-color: #e8e8e8; font-size: 0.7em; font-weight: bold; padding: 5px 5px 5px 5px;}
-.Boxed div#SFSBsearch a {width: 37px; font-size: 0.8em; font-weight: bold; padding: 6px 5px 5px 5px; background-color: #e8e8e8; text-decoration: none; color: #008000;}
+.Boxed div#SFSBselect {border: 0px solid black; float: left; text-align: left; font-size: 0.8em; position:;  width: 50%%; margin-left: 5px; margin-top: 5px; padding: 0px; background-color: #FFFFEF; height:; z-index: 1;}
+.Boxed div#SFSBselect a, .Boxed div#SFSBselect span {font-size: 0.7em; font-weight: bold; padding: 4px; background-color: #e8e8e8; text-decoration: none; color: #bbb;}
+.Boxed div#SFSBselect select {height: 23px; margin-right: 5px; margin-bottom: 0px;}
+.Boxed div#SFSBsearch {margin-top: 5px; border: 0px solid black; width: 40%; float: right; font-size: 0.8em; position: ; padding: 0px; background-color: #ffffef; z-index: 1;}
+.Boxed div#SFSBsearch input {width: 70%; margin-bottom: 0px; border: 0; color: #6f6f6f; background-color: #e8e8e8; font-size: 0.7em; font-weight: bold; padding: 5px;}
+.Boxed div#SFSBsearch a {width: 24%; font-size: 0.7em; font-weight: bold; padding: 5px; background-color: #e8e8e8; text-decoration: none; color: #008000;}
 .Boxed div#SFSearchinfo ul#strainsearchul {display: block; list-style: none; margin: 5px 0 0 0; font-size: 0.8em; font-weight: bold; padding-left: 20px;}
 .Boxed div#SFSearchinfo ul#strainsearchul li {padding: 1px 5px 1px 5px; background-color: #ffffef;}
 .Boxed div#SFSearchinfo ul#strainsearchul li a {text-decoration: none; color: #000;}

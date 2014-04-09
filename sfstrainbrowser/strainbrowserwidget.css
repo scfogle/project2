@@ -23,13 +23,13 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 .Boxed div#SFSBlink a {text-decoration: none; color: #008000; background-color: white; font-size: 12px; font-weight: bold; border: 0px solid black; padding: 0 2px 0 2px;}
 .Boxed div#SFSBname {position: ; top: ; left: ; margin: 23px 0 0 0px; padding: 0 6px 0 0; background-color: #bbb; border: 1px solid black; display: none;}
 .Boxed div#SFSBname img {border: 0;}
-.Boxed div#SFSBselect {border: 0px solid black; float: left; text-align: left; font-size: 0.8em; position:;  width: 50%%; margin-left: 5px; margin-top: 5px; padding: 0px; background-color: whitemsoke; height:; z-index: 1;}
+.Boxed div#SFSBselect {border: 0px solid black; float: left; text-align: left; font-size: 0.8em; position:;  width: 50%%; margin-left: 5px; margin-top: 5px; padding: 0px; background-color: whitemsoke; height:; z-index: 1; margin-bottom: 20px;}
 .Boxed div#SFSBselect a, .Boxed div#SFSBselect span {font-size: 0.7em; font-weight: bold; padding: 4px; background-color: #e8e8e8; text-decoration: none; color: #bbb;}
 .Boxed div#SFSBselect select {height: 23px; margin-right: 5px; margin-bottom: 0px;}
-.Boxed div#SFSBsearch {margin-top: 5px; border: 0px solid black; width: 40%; float: right; font-size: 0.8em; position: ; padding: 0px; background-color: whitemsoke; z-index: 1;}
+.Boxed div#SFSBsearch {margin-top: 5px; border: 0px solid black; width: 40%; float: right; font-size: 0.8em; position: ; padding: 0px; background-color: whitemsoke; z-index: 1; margin-bottom: 20px;}
 .Boxed div#SFSBsearch input {width: 70%; margin-bottom: 0px; border: 0; color: #6f6f6f; background-color: #e8e8e8; font-size: 0.7em; font-weight: bold; padding: 5px;}
 .Boxed div#SFSBsearch a {width: 24%; font-size: 0.7em; font-weight: bold; padding: 5px; background-color: #e8e8e8; text-decoration: none; color: #008000;}
-.Boxed div#SFSearchinfo ul#strainsearchul {display: block; list-style: none; margin: 5px 0 0 0; font-size: 0.8em; font-weight: bold; padding-left: 20px; margin-top: 50px;}
+.Boxed div#SFSearchinfo ul#strainsearchul {display: block; list-style: none; margin: 5px 0 0 0; font-size: 0.8em; font-weight: bold; padding-left: 20px;;}
 .Boxed div#SFSearchinfo ul#strainsearchul li {padding: 1px 5px 1px 5px; background-color: whitemsoke;}
 .Boxed div#SFSearchinfo ul#strainsearchul li a {text-decoration: none; color: #000;}
 .Boxed div#SFSBrowser {min-height: 47px;}

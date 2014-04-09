@@ -33,7 +33,7 @@ div#SeedFinderStrainBrowser {font-family: sans-serif;}
 .Boxed div#SFSearchinfo ul#strainsearchul li {padding: 1px 5px 1px 5px; background-color: whitemsoke;}
 .Boxed div#SFSearchinfo ul#strainsearchul li a {text-decoration: none; color: #000;}
 .Boxed div#SFSBrowser {min-height: 47px;}
-.Boxed div#SFSBrowser h2 {padding: 2px; margin: 23px 0 0 0; padding-left: 5px; border-top: 5px solid whitemsoke; border-bottom: 5px solid #whitemsoke;}
+.Boxed div#SFSBrowser h2 {padding: 2px; margin: 23px 0 0 0; padding-left: 5px; border-top: 5px solid black; border-bottom: 5px solid #whitemsoke;}
 .Boxed div#SFSBrowser h2.strainname {color: #000; background-color: whitemsoke;}
 .Boxed div#SFSBrowser h2.imloading {color: #a9a9a9; border-color: whitemsoke; background-color: whitemsoke;}
 .Boxed div#SFSBstraininfo {background-color:whitemsoke;}
